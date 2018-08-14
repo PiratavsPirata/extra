@@ -1,0 +1,189 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
+
+
+
+
+
+.top
+    {
+        width: 100%;
+        background: #0e0422f7;
+        height: 80px;
+    }
+    
+.row
+    {
+        height: 80px;
+        margin-top:  50px;
+        margin:  auto;
+    }
+    
+
+.top p 
+    {
+        width: 350px;
+        text-align: center;
+        color: #fff;
+        left: calc(50% - 175px);
+        position: absolute;
+    }
+
+
+
+.logo
+    {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 80px;
+    -webkit-user-select: none;
+}
+
+
+.form-group
+    {
+        width: 100%; 
+    }
+    
+.form-group input
+    {
+        border-radius: 10px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0px 25px;
+        font-weight: 700;
+        height: 50px;
+        font-size: 14px;
+        color: #fff;
+        border: none !important;
+        background: #F44336;
+        text-transform: uppercase;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        top: calc(40px - 25px);
+        left: 40px;
+    }
+    
+    
+.contador
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0px 25px;
+        font-weight: 700;
+        height: 50px;
+        font-size: 14px;
+        color: #fff;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        top: calc(40px - 25px);
+        left: 40px;
+    }
+    
+    
+    
+.botao:hover
+    {
+        background: #c14b21;
+    }
+
+
+.main 
+    {
+        margin: 0px; 
+        position: absolute;
+        top:80px;
+        left: 0;
+        right: 0;
+        height: calc(100% - 80px);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
+.anuncios
+    {
+        width:100%;
+        height: calc(100% - 167px);
+        top: 90px;
+        position: absolute;
+    }
+    
+.top-fundo
+    {
+        position: fixed;
+        z-index: -9;
+        background: rgba(14, 4, 34, 0.87); 
+        height: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    
+.fundo-fundo
+    {
+        z-index: -10;
+        background-image: url(img/fundo.jpg);
+        height: 100%;
+        width: 100%;
+        right: 0;
+        top: 0;
+        position: fixed;
+    }
+
+@media screen and (max-width: 650px) {
+
+.top
+    {
+        height: 200px;
+    }
+.top p
+    {
+        top: 200;
+    }
+.logo
+    {
+        right: calc(50% - 120px);
+    }
+.row
+    {
+        height: 200px;
+    }
+.form-group input
+    {
+        position: relative;
+        left: calc(50% - 125px);
+        width: 250px;
+        top: 100px;
+    }
+.contador
+    {
+        position: relative;
+        left: calc(50% - 125px);
+        width: 250px;
+        top: 100px; 
+        text-align: center;
+
+    }
+    
+.main
+    {
+        top: 200px;
+    }
+.anuncios 
+    {
+    width: 100%;
+    height: calc(100% - 167px);
+    top: 100px;
+    }
+}
